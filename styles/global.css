@@ -3,6 +3,7 @@
   margin: 0px;
   padding: 0px;
   color: #fff;
+  box-sizing: border-box;
   font-family: 'JetBrains Mono', monospace;
 }
 
@@ -21,6 +22,9 @@ body {
   color: #fff;
   margin: 0px;
   padding: 0px;
+  overflow: hidden;
+  display: block;
+  position: relative;
 }
 .img {
   width: 300px;
