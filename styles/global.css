@@ -11,332 +11,104 @@
 /* the font-family 'JetBrains Mono', has been linked
  * and is available for your use
  * */
+.img {
+  width: 25%;
+  height: 25%;
+}
 body {
-  background: #980e71;
-  font-family: 'JetBrains Mono', monospace;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 100%;
-  letter-spacing: 0%;
-  text-align: center;
-  color: #fff;
-  margin: 0px;
-  padding: 0px;
-  overflow: hidden;
+  background-color: rgb(84, 28, 135);
   display: block;
   position: relative;
-}
-.img {
-  width: 300px;
-  height: 200px;
-  top: 58px;
-  right: 31px;
-  margin-right: 700%;
-  border-radius: 130.03px;
-  box-shadow: 0px 5.25px 5.25px 0px #00000040;
-  border: 1px solid #000000;
-  border-radius: 130.03px;
-}
-
-.header {
-  width: 125;
-  height: 46;
-  top: -1457px;
-  left: 3680px;
-  font-family: JetBrains Mono;
-  font-weight: 700;
-  font-size: 34.65px;
-  line-height: 100%;
-  letter-spacing: 0%;
-  text-align: center;
-  color: #000000;
+  min-height: 100vh;
 }
 
 .header-contact {
-  width: 600px;
-  height: 100px;
-  top: 20px;
-  margin-top: -200px;
-  margin-left: 700px;
-  left: 252px;
-  border-radius: 26.27px;
-  background: #fffefe;
-  box-shadow: 0px 5.25px 5.25px 0px #00000040;
-  border: 1px solid #000000;
-  border-radius: 26.27px;
-}
-
-.header-contact h3 {
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  font-family: JetBrains Mono;
-  font-weight: 500;
-  font-size: 16.7px;
-  line-height: 100%;
-  margin-top: 10px;
-  letter-spacing: 0%;
-  color: #000000;
-}
-
-.header-contact span {
-  color: rgb(11, 11, 215);
-}
-
-.img {
-  width: 144.48133850097656;
-  height: 144.48133850097656;
-  top: 58px;
-  left: 31px;
-  border-radius: 130.03px;
-  box-shadow: 0px 5.25px 5.25px 0px #00000040;
-  border: 1px solid #000000;
-  border-radius: 130.03px;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 20px;
+  padding-left: 40px;
+  position: absolute;
+  top: 50px;
+  right: 200px;
+  color: #fff;
 }
 
 .header-summary {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  justify-content: center;
-  margin-top: 50px;
-  width: 852.4398803710938;
-  height: 194.39308166503906;
-  top: 331px;
-  left: 21px;
+  padding: 20px;
+  padding-left: 40px;
+  position: absolute;
+  top: 150px;
+  left: 300px;
+  color: #fff;
 }
 
-.header-summary h1 {
-  font-family: JetBrains Mono;
-  font-weight: 700;
-  font-size: 34.65px;
-  line-height: 100%;
-  letter-spacing: 0%;
-  text-align: center;
-  color: white;
-}
-
-.header-summary p {
-  font-family: JetBrains Mono;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 100%;
-  letter-spacing: 0%;
-  text-align: center;
-  justify-content: center;
-  color: white;
-  margin-top: 10px;
-}
-
-.main-education {
+.main {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   justify-content: flex-start;
+  align-items: flex-start;
   margin-top: 50px;
-  width: 852.4398803710938;
-  height: 194.39308166503906;
-  top: 331px;
-  left: 21px;
+  color: #fff;
 }
-
-.main-education h2 {
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  width: 732;
-  height: 88;
-  top: 53.85px;
-  margin-top: 20px;
-  left: 34.15px;
-  font-family: JetBrains Mono;
-  font-weight: 500;
-  font-size: 16.7px;
-  line-height: 100%;
-  letter-spacing: 0%;
-  text-align: center;
-  color: white;
+.main h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
 }
 
 .main-education-span {
+  color: blue;
+  font-weight: bold;
   display: flex;
-  flex-direction: column;
   justify-content: flex-start;
-  color: royalblue;
-  align-items: flex-start;
-  font-size: 16px;
-  margin-top: 20px;
-  margin-left: -454.15px;
+  flex-direction: column;
 }
 
 .main-education-list {
   display: flex;
-  flex-direction: column;
   justify-content: flex-start;
-  align-items: flex-start;
-  font-size: 16px;
-  list-style-type: circle;
-  list-style-position: inside;
-  margin-top: 5px;
-  padding-left: 20px;
+  flex-direction: column;
+  margin-left: 20px;
+  padding-left: 25px;
 }
 
-.main-education-list li {
-  padding-left: 50px;
-  margin-top: 5px;
-}
-
-.main-experience {
+.main-experience span {
+  color: blue;
+  font-weight: bold;
+  font-size: 25px;
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  margin-top: 50px;
   justify-content: flex-start;
-  width: 852.4398803710938;
-  height: 194.39308166503906;
-  top: 331px;
-  left: 21px;
+  flex-direction: column;
+}
+
+.main-experience-list {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-left: 20px;
+  padding-left: 25px;
+  font-size: 25px;
 }
 
 .main-experience h2 {
-  display: flex;
-  justify-content: flex-start;
-  width: 732;
-  height: 88;
-  top: 53.85px;
-  left: 34.15px;
-  margin-top: 20px;
-  font-family: JetBrains Mono;
-  font-weight: 500;
-  font-size: 16.7px;
-  line-height: 100%;
-  letter-spacing: 0%;
-  text-align: center;
-  color: white;
-}
-.main-experience span {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  color: royalblue;
-  align-items: flex-start;
-  font-size: 16px;
-  margin-top: 20px;
-}
-.main-experience-list {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  margin-left: -550px;
-  font-size: 16px;
-  margin-top: 35px;
-  padding-left: 20px;
-}
-.main-experience-list li {
-  font-size: 16px;
-  margin-top: 5px;
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-weight: bold;
 }
 
-.main-experience-list li span {
+.skills-hobbies {
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  font-size: 16px;
-  list-style-type: circle;
-  list-style-position: inside;
-  margin-top: 5px;
-  margin-left: -600px;
+  justify-content: space-between;
+  margin-left: 20px;
+  padding-left: 25px;
+  font-size: 25px;
 }
 
-.hobbies-skills {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  width: 852.4398803710938;
-  height: 194.39308166503906;
-  top: 331px;
-  left: 21px;
-}
-
-.main-hobbies {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  width: 852.4398803710938;
-  height: 194.39308166503906;
-  top: 331px;
-  left: 21px;
-}
-.main-hobbies h2 {
-  display: flex;
-  justify-content: flex-start;
-  width: 732;
-  height: 88;
-  top: 53.85px;
-  left: 34.15px;
-  font-family: JetBrains Mono;
-  font-weight: 700;
-  font-size: 32.7px;
-  line-height: 100%;
-  letter-spacing: 0%;
-  text-align: center;
-  color: white;
-}
-
-.main-hobbies-list {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  list-style-type: circle;
-  padding-left: 20px;
-  margin-top: 5px;
-}
-
-.main-hobbies-list li {
-  align-items: flex-start;
-}
-
-.main-skills {
-  display: flex;
-
-  align-items: flex-end;
-  justify-content: flex-end;
-  width: 852.4398803710938;
-  height: 194.39308166503906;
-  top: 331px;
-  left: 21px;
-}
-.main-skills h2 {
-  display: flex;
-  justify-content: flex-end;
-  width: 732;
-  height: 88;
-  top: 53.85px;
-  left: 34.15px;
-  font-family: JetBrains Mono;
-  font-weight: 700;
-  font-size: 32.7px;
-  line-height: 100%;
-  letter-spacing: 0%;
-  text-align: center;
-  color: white;
-}
-
-.main-skills-list {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  list-style-type: circle;
-  padding-left: 20px;
-  margin-top: 5px;
-}
-.main-skills-list li {
-  align-items: flex-start;
-  flex-direction: column;
+.hobbies {
+  margin-left: 250px;
 }
